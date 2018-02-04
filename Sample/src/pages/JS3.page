@@ -1,0 +1,20 @@
+<apex:page id="pg">
+    <apex:form id="fm">
+        <apex:inputText id="name" onchange="show()"/>
+        <script>
+            function show(){
+                var myname=document.getElementById('{!$Component.name}').value; 
+                var myage=document.getElementById('{!$Component.pb.age}').value; 
+                alert(myname+'===='+myage);
+                        }
+            function Demo(){
+                var a=document.getElementById('pg:fm:name').value; 
+                var b=document.getElementById('pg:fm:pb:age').value; 
+                alert(myname+'===='+myage);
+                        }
+        </script>
+        <apex:pageBlock id="pb">
+            <apex:inputText id="age" onchange="demo()"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,6 @@
+<apex:page Controller="imp">
+<apex:form >
+
+<apex:commandButton action="{!show}" value="click"/>
+</apex:form>
+</apex:page>

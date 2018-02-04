@@ -1,0 +1,12 @@
+<apex:page >
+               <style>
+                     .bPageBlock {
+                                background-color: red !important;
+                     }
+               </style>
+               <apex:form >
+                         <apex:pageblock title="testing">
+                                     <div>To complete the request, click on <b>Submit for Approval</b> button located on the <b>Approval                                                    History</b> section of this page.</div>
+                         </apex:pageblock>
+                </apex:form>
+</apex:page>

@@ -1,0 +1,277 @@
+<apex:page controller="PageLink">
+<apex:form >
+<apex:pageBlock >
+<div style="color:black;background-color:white;font-family:Times New Roman;font-size:17px">ELECTRONICS AND COMMUNICATION ENGINEERING</div> 
+<apex:pageBlockSection >
+<apex:pageBlockSectionItem >
+    <div class="field">
+<div class="fieldname">MICROWAVE ENGINEERING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text">
+  <option value="">   </option>
+  <option value="SIR">HARI</option>
+  <option value="SIR">BABU</option>
+    <option value="SIR">PRASAD</option>
+  <option value="SIR">SONALI</option>
+    <option value="SIR">MOHAN</option>
+  <option value="SIR">SANTOSH</option>
+    <option value="SIR">SRINIVAS</option>
+  <option value="SIR">ANUDEEP</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">RATING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  <select required="text">
+  <option value="">   </option>
+  <option value="RATING">EXCELLENT</option>
+  <option value="RATING">VERY GOOD</option>
+    <option value="RATING">GOOD</option>
+  <option value="RATING">AVERAGE</option>
+    <option value="RATING">BAD</option>
+  <option value="RATING">POOR</option>
+</select></div></div>
+</apex:pageBlockSectionitem>
+
+
+
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+<div class="fieldname">EMBEDDED SYSTEMS<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text">
+  <option value="">   </option>
+  <option value="SIR">HARI</option>
+  <option value="SIR">BABU</option>
+    <option value="SIR">PRASAD</option>
+  <option value="SIR">SONALI</option>
+    <option value="SIR">MOHAN</option>
+  <option value="SIR">SANTOSH</option>
+    <option value="SIR">SRINIVAS</option>
+  <option value="SIR">ANUDEEP</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">RATING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  <select required="text">
+  <option value="">   </option>
+  <option value="RATING">EXCELLENT</option>
+  <option value="RATING">VERY GOOD</option>
+    <option value="RATING">GOOD</option>
+  <option value="RATING">AVERAGE</option>
+    <option value="RATING">BAD</option>
+  <option value="RATING">POOR</option>
+</select></div></div>
+</apex:pageBlockSectionitem>
+
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+<div class="fieldname">DIGITAL IMAGE PROCESSING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text">
+  <option value="">   </option>
+  <option value="SIR">HARI</option>
+  <option value="SIR">BABU</option>
+    <option value="SIR">PRASAD</option>
+  <option value="SIR">SONALI</option>
+    <option value="SIR">MOHAN</option>
+  <option value="SIR">SANTOSH</option>
+    <option value="SIR">SRINIVAS</option>
+  <option value="SIR">ANUDEEP</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">RATING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  <select required="text">
+  <option value="">   </option>
+  <option value="RATING">EXCELLENT</option>
+  <option value="RATING">VERY GOOD</option>
+    <option value="RATING">GOOD</option>
+  <option value="RATING">AVERAGE</option>
+    <option value="RATING">BAD</option>
+  <option value="RATING">POOR</option>
+</select></div></div>
+</apex:pageBlockSectionitem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+<div class="fieldname">MANAGEMENT SCIENCE<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text">
+  <option value="">   </option>
+  <option value="SIR">HARI</option>
+  <option value="SIR">BABU</option>
+    <option value="SIR">PRASAD</option>
+  <option value="SIR">SONALI</option>
+    <option value="SIR">MOHAN</option>
+  <option value="SIR">SANTOSH</option>
+    <option value="SIR">SRINIVAS</option>
+  <option value="SIR">ANUDEEP</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">RATING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  <select required="text">
+  <option value="">   </option>
+  <option value="RATING">EXCELLENT</option>
+  <option value="RATING">VERY GOOD</option>
+    <option value="RATING">GOOD</option>
+  <option value="RATING">AVERAGE</option>
+    <option value="RATING">BAD</option>
+  <option value="RATING">POOR</option>
+</select></div></div>
+</apex:pageBlockSectionitem>
+
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+<div class="fieldname">VLSI DESIGN<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text">
+  <option value="">   </option>
+  <option value="SIR">HARI</option>
+  <option value="SIR">BABU</option>
+    <option value="SIR">PRASAD</option>
+  <option value="SIR">SONALI</option>
+    <option value="SIR">MOHAN</option>
+  <option value="SIR">SANTOSH</option>
+    <option value="SIR">SRINIVAS</option>
+  <option value="SIR">ANUDEEP</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">RATING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  <select required="text">
+  <option value="">   </option>
+  <option value="RATING">EXCELLENT</option>
+  <option value="RATING">VERY GOOD</option>
+    <option value="RATING">GOOD</option>
+  <option value="RATING">AVERAGE</option>
+    <option value="RATING">BAD</option>
+  <option value="RATING">POOR</option>
+</select></div></div>
+</apex:pageBlockSectionitem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+<div class="fieldname">COMPUTER NETWORKS<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text">
+  <option value="">   </option>
+  <option value="SIR">HARI</option>
+  <option value="SIR">BABU</option>
+    <option value="SIR">PRASAD</option>
+  <option value="SIR">SONALI</option>
+    <option value="SIR">MOHAN</option>
+  <option value="SIR">SANTOSH</option>
+    <option value="SIR">SRINIVAS</option>
+  <option value="SIR">ANUDEEP</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">RATING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  <select required="text">
+  <option value="">   </option>
+  <option value="RATING">EXCELLENT</option>
+  <option value="RATING">VERY GOOD</option>
+    <option value="RATING">GOOD</option>
+  <option value="RATING">AVERAGE</option>
+    <option value="RATING">BAD</option>
+  <option value="RATING">POOR</option>
+</select></div></div>
+</apex:pageBlockSectionitem>
+
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+<div class="fieldname">MICROWAVE ENGG AND DIGITAL COMMNS LAB<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text">
+  <option value="">   </option>
+  <option value="SIR">HARI</option>
+  <option value="SIR">BABU</option>
+    <option value="SIR">PRASAD</option>
+  <option value="SIR">SONALI</option>
+    <option value="SIR">MOHAN</option>
+  <option value="SIR">SANTOSH</option>
+    <option value="SIR">SRINIVAS</option>
+  <option value="SIR">ANUDEEP</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">RATING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  <select required="text">
+  <option value="">   </option>
+  <option value="RATING">EXCELLENT</option>
+  <option value="RATING">VERY GOOD</option>
+    <option value="RATING">GOOD</option>
+  <option value="RATING">AVERAGE</option>
+    <option value="RATING">BAD</option>
+  <option value="RATING">POOR</option>
+</select></div></div>
+</apex:pageBlockSectionitem>
+
+
+
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+<div class="fieldname">E-CAD AND VLSI LAB<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text">
+  <option value="">   </option>
+  <option value="SIR">HARI</option>
+  <option value="SIR">BABU</option>
+    <option value="SIR">PRASAD</option>
+  <option value="SIR">SONALI</option>
+    <option value="SIR">MOHAN</option>
+  <option value="SIR">SANTOSH</option>
+    <option value="SIR">SRINIVAS</option>
+  <option value="SIR">ANUDEEP</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">RATING<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  <select required="text">
+  <option value="">   </option>
+  <option value="RATING">EXCELLENT</option>
+  <option value="RATING">VERY GOOD</option>
+    <option value="RATING">GOOD</option>
+  <option value="RATING">AVERAGE</option>
+    <option value="RATING">BAD</option>
+  <option value="RATING">POOR</option>
+</select></div></div>
+</apex:pageBlockSectionitem>
+
+
+<br></br><br><apex:commandButton value="Submit Case" action="{!Save}"/></br>
+
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

@@ -1,0 +1,7 @@
+<apex:page >
+    <apex:outputLabel >Line One</apex:outputLabel>
+        <script>
+            alert('Show this');
+        </script>
+    <apex:outputLabel >Line Two</apex:outputLabel>
+</apex:page>

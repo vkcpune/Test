@@ -1,0 +1,38 @@
+<apex:page controller="PageLink">
+<apex:form >
+<apex:pageBlock title="MLR INSTITUTE OF TECHNOLOGY">
+
+<div style="color:black;background-color:white;font-family:Times New Roman;font-size:17px"> ECE Department  </div> 
+<apex:pageBlockSection >
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <br></br><div class="fieldname">Which Year Of BTECH<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text">
+  <option value="">   </option>
+  <option value="Year">I-I Semister</option>
+  <option value="Year">I-II Semister</option>
+    <option value="Year">II-I Semister</option>
+  <option value="Year">II-II Semister</option>
+    <option value="Year">III-I Semister</option>
+  <option value="Year">III-II Semister</option>
+    <option value="Year">IV-I Semister</option>
+  <option value="Year">IV-II Semister</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<br></br>
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">Student Roll Number<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  <input type="text"  name="username" required="text"> </input></div></div> 
+</apex:pageBlockSectionitem>
+
+<br></br><apex:commandButton value="printView" action="{!printView}" />
+
+
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

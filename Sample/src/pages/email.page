@@ -1,0 +1,5 @@
+<apex:page controller="mail">
+<apex:form >
+<apex:commandButton value="click" action="{!show}"/>
+</apex:form>
+</apex:page>

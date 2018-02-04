@@ -1,0 +1,24 @@
+<apex:page standardController="Account" recordSetVar="krish" >
+<apex:form >
+    <apex:outputPanel >
+    <apex:outputPanel >
+    <apex:outputPanel style="float:right;width:50">
+         <apex:pageBlock >
+             <apex:pageBlockTable value="{!krish}" var="ram">
+             <apex:column value="{!ram.Name}" headerValue="Name"/>
+             <apex:column value="{!ram.AccountNumber}"/>
+             <apex:column > <apex:inputField value="{!ram.Name}"/> </apex:column>
+             </apex:pageBlockTable>
+         </apex:pageBlock>
+    </apex:outputPanel>
+    <apex:outputPanel style="float:left;width:50">
+            <apex:dataTable value="{!krish}" var="ram">
+             <apex:column value="{!ram.Name}" headerValue="Name"/>
+             <apex:column value="{!ram.AccountNumber}"/>
+             <apex:column > <apex:inputField value="{!ram.Name}"/> </apex:column>
+             </apex:dataTable>
+    </apex:outputPanel>
+    </apex:outputPanel>
+    </apex:outputPanel>
+</apex:form>
+</apex:page>

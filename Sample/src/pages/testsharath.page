@@ -1,0 +1,107 @@
+<apex:page StandardController="College__c">
+<apex:form >
+
+
+<apex:pageBlock title="College Portal">
+
+<apex:pageBlockSection columns="2" collapsible="false">
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">Case Type<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text" style="width:150px;">
+  <option value="">   </option>
+  <option value="Hyderabad">Hyderabad</option>
+  <option value="Chennai">Chennai</option>
+  <option value="Pune">Pune</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="None Of The Above">None Of The Above</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+
+<apex:pageBlockSectionItem >
+   <div class="field">
+  <div class="fieldname">My Date<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+    <input type="date" value="{!College__c.My_Date__c}" name="date" required="date" placeholder="MM/DD/YYYY"></input></div></div>  
+</apex:pageBlockSectionItem>
+
+
+
+
+<apex:pageBlockSectionItem >
+
+    <div class="field">
+  <div class="fieldname">Full Name<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  
+  
+  <!-- <apex:inputTextarea richText="false" id="text" cols="10" rows="2"  required="true"/></div></div> -->
+
+  <input type="text"  value="{!College__c.Full_Name__c}" name="username" required="text"> </input></div></div> 
+
+</apex:pageBlockSectionitem>
+
+
+
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">SSN(Last 4 digits)<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+  <input type="number" value="{!College__c.SSN__c}" name="number" required="number"> </input></div></div>
+</apex:pageBlockSectionItem>
+
+
+
+
+<apex:pageBlockSectionItem >
+
+    <div class="field">
+  <div class="fieldname">Phone<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+  <input type="number"  value="{!College__c.Phone__c}" name="number" required="number"> </input></div></div>
+</apex:pageBlockSectionItem>
+
+
+
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">Employee/Student ID(EMPL)<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+  <input type="number"  value="{!College__c.Name}" name="number" required="number"> </input></div></div>
+</apex:pageBlockSectionItem>
+
+
+<apex:pageBlockSectionItem >
+  <div class="field">
+  <div class="fieldname">Email <span class="mandatory">*</span>  
+  <style>.mandatory{color:red;}  
+</style>
+    <input type="email" value="{!College__c.Email__c}"  name="email" required="email"></input></div></div>
+</apex:pageBlockSectionItem>
+ 
+   
+<br></br>  
+<apex:pageBlockSectionItem >   
+    <div class="field">
+  <div class="fieldname">Describe Your Question or Issue<span class="mandatory">*</span>
+  <br></br><style>.mandatory{color:red;}</style>
+  <textarea rows="3" cols="70" maxlength="150" type="text" name="name" required="text"></textarea></div></div>
+  <!-- <input type="text"  name="username" required="text"> </input></div></div> -->
+</apex:pageBlockSectionItem>
+
+
+
+<br><apex:outputLabel ><h1>Upload Document</h1></apex:outputLabel></br>
+<br><apex:commandButton value="Submit Case" action="{!Save}"/></br>
+
+
+
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

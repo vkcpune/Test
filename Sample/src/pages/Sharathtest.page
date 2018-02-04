@@ -1,0 +1,112 @@
+<apex:page controller="Colleges" tabstyle="College__c">
+<apex:form >
+
+<apex:pageBlock title="College Portal">
+
+<apex:pageBlockSection columns="2" collapsible="false">
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">Case Type<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+<select required="text" style="width:150px;">
+  <option value="">   </option>
+  <option value="Hyderabad">Hyderabad</option>
+  <option value="Chennai">Chennai</option>
+  <option value="Pune">Pune</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="None Of The Above">None Of The Above</option>
+</select></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+   <div class="field">
+  <div class="fieldname">My Date<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+    <input type="date" name="date" required="date" placeholder="MM/DD/YYYY"></input></div></div>  
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+
+    <div class="field">
+  <div class="fieldname">Full Name<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style> 
+  
+  
+  <!-- <apex:inputTextarea richText="false" id="text" cols="10" rows="2"  required="true"/></div></div> -->
+
+  <input type="text"  name="username" required="text"> </input></div></div> 
+
+</apex:pageBlockSectionitem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">SSN(Last 4 digits)<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+  <input type="number" name="number" required="number"> </input></div></div>
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+
+    <div class="field">
+  <div class="fieldname">Phone<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+
+  <input type="number" name="number" required="number"> </input></div></div>
+  
+</apex:pageBlockSectionItem>
+
+<apex:pageBlockSectionItem >
+    <div class="field">
+  <div class="fieldname">Employee/Student ID(EMPL)<span class="mandatory">*</span>
+  <style>.mandatory{color:red;}</style>
+  <input type="number" name="number" required="number"> </input></div></div>
+</apex:pageBlockSectionItem>
+
+
+<apex:pageBlockSectionItem >
+  <div class="field">
+  <div class="fieldname">Email <span class="mandatory">*</span>  
+  <style>.mandatory{color:red;}  
+</style>
+    <input type="email"  name="email" required="email"></input></div></div>
+</apex:pageBlockSectionItem>
+ 
+   
+<br></br>  
+<apex:pageBlockSectionItem >   
+    <div class="field">
+  <div class="fieldname">Describe Your Question or Issue<span class="mandatory">*</span>
+  <br></br><style>.mandatory{color:red;}</style>
+  <textarea rows="3" cols="70" maxlength="150" type="text" name="name" required="text"></textarea></div></div>
+  <!-- <input type="text"  name="username" required="text"> </input></div></div> -->
+</apex:pageBlockSectionItem>
+
+
+
+<br><apex:outputLabel ><h1>Upload Document</h1></apex:outputLabel></br>
+<br><apex:commandButton value="Submit Case" action="{!Save}"/></br>
+
+  <apex:commandButton value="click" onclick="validateFeedback()"/>
+  <script>  
+  function validateFeedback()
+    {
+    var phone = document.getElementById("phone");
+    var validNumber = "0123456789.-";
+
+
+    for(i = 0; i < phone.length; i++) {
+            if(validNumber.indexOf(phone.charAt(i)) == -1) {
+                    alert("You have entered an invalid phone number");
+                    return false;
+                }
+            }
+
+        return true;
+    }
+  </script>
+
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

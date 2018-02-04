@@ -1,0 +1,23 @@
+<apex:page controller="Colleges" tabstyle="College__c">
+<apex:sectionHeader title="College Title"/>
+<apex:form >
+<apex:pageBlock >
+<apex:pageMessages />
+<apex:pageBlockSection >
+<apex:inputField value="{!college.Name}"/>
+<br></br><apex:inputField value="{!college.Full_Name__c}"/>
+<br></br><apex:inputField value="{!college.Case_Type__c}"/>
+<br></br><apex:inputField value="{!college.Phone__c}"/>
+
+<br></br><apex:inputField value="{!college.My_Date__c}"/>
+<br></br><apex:inputField value="{!college.Email__c}"/>
+<br></br><apex:inputField value="{!college.SSN__c}"/>
+<br></br><apex:inputField value="{!college.Describe_Your_Question_or_Issue__c}"/>
+
+</apex:pageBlockSection>
+<apex:pageBlockButtons location="bottom">
+<apex:commandButton value="Save" action="{!save}"/>
+</apex:pageBlockButtons>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

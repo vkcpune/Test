@@ -1,0 +1,32 @@
+<apex:page standardController="Patient__c">
+<apex:form >
+<apex:pageBlock title="page block" helpTitle="details of patient" helpUrl="www.google.com">
+<apex:pageBlockSection title="Page Block Section" collapsible="false">
+<apex:pageBlockSectionItem >
+<apex:outputLabel >date</apex:outputLabel>
+<apex:inputField value="{!Patient__c.date__c}" label="input field date"/>
+</apex:pageBlockSectionItem>
+<apex:inputField value="{!Patient__c.Name}"/>
+<apex:inputField value="{!Patient__c.date__c}" label="input field date"/>
+<apex:outputField value="{!Patient__c.date__c}" label="output field date"/>
+<apex:inputText value="{!Patient__c.date__c}" label="input text date"/>
+<apex:outputText value="{!Patient__c.date__c}" label="output text date"></apex:outputText>
+</apex:pageblockSection>
+<apex:pageBlockButtons location="top">
+<apex:commandButton value="save" action="{!save}" />
+<apex:commandLink value="save" action="{!save}"/>
+</apex:pageBlockButtons>
+
+</apex:pageBlock>
+
+
+<apex:outputLabel >
+ Section
+</apex:outputLabel>
+<apex:inputField value="{!Patient__c.Name}"/>
+</apex:form>
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

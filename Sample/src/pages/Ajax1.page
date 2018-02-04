@@ -1,0 +1,18 @@
+<apex:page standardController="Applications__c" renderAs="pdf">
+<apex:form >
+         <apex:pageBlock >
+             <apex:pageBlockSection >
+        <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Name"></apex:outputLabel>
+            <apex:inputText value="{!Applications__c.Name}"/>
+             
+        </apex:pageBlockSectionItem>
+        <apex:pageBlockSectionItem >
+            <apex:outputLabel value="Password"></apex:outputLabel>
+            <apex:inputField value="{!Applications__c.Password__c}"/>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+</apex:form>
+</apex:page>

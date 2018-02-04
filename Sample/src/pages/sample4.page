@@ -1,0 +1,26 @@
+<apex:page >
+    <apex:form >
+        <apex:selectList size="1">
+            <apex:selectOption itemLabel="-None-" itemValue="None"/>
+            <apex:selectOption itemLabel="Jan" itemValue="one"/>
+            <apex:selectOption itemLabel="Feb" itemValue="two"/>
+            <apex:selectOption itemLabel="Mar" itemValue="three" itemDisabled="true"/>
+            <apex:selectOption itemLabel="Apr" itemValue="Four" itemEscaped="true"/>
+        </apex:selectList>
+        <apex:selectCheckboxes borderVisible="true" legendInvisible="false" legendText="Mychoice">
+            <apex:selectOption itemLabel="-None-" itemValue="None"/>
+            <apex:selectOption itemLabel="Jan" itemValue="one"/>
+            <apex:selectOption itemLabel="Feb" itemValue="two"/>
+            <apex:selectOption itemLabel="Mar" itemValue="three" itemDisabled="true"/>
+            <apex:selectOption itemLabel="Apr" itemValue="Four" itemEscaped="true"/>
+
+        </apex:selectCheckboxes>
+        <apex:selectRadio >
+            <apex:selectOption itemLabel="-None-" itemValue="None"/>
+            <apex:selectOption itemLabel="Jan" itemValue="one"/>
+            <apex:selectOption itemLabel="Feb" itemValue="two"/>
+            <apex:selectOption itemLabel="Mar" itemValue="three" itemDisabled="true"/>
+            <apex:selectOption itemLabel="Apr" itemValue="Four" itemEscaped="true"/>
+        </apex:selectRadio>
+    </apex:form>
+</apex:page>

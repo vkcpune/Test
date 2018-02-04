@@ -1,0 +1,10 @@
+<apex:page Controller="childparent">
+<apex:form >
+<apex:commandButton value="click" action="{!show}"/>
+<apex:pageBlock >
+<apex:pageBlockTable value="{!cont}" var="c">
+</apex:pageBlockTable>
+</apex:pageBlock>
+
+</apex:form>
+</apex:page>

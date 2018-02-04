@@ -1,0 +1,13 @@
+<apex:page standardController="Account">
+    <apex:form id="fm">
+        <apex:inputHidden value="{!Account.Name}" id="one"/>
+        <apex:commandButton value="click" onclick="show()"/>
+        <script>
+            function show(){
+                var myname=document.getElementById('{!$Component.one}').value;
+                alert(myname);
+                }
+        </script>
+    </apex:form>
+
+</apex:page>

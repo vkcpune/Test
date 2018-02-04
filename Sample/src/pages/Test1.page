@@ -1,0 +1,120 @@
+<apex:page >
+<html lang="en">
+<head>
+<meta charset="utf-8"></meta>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<title>Example of Bootstrap 3 Supported Form Controls</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"></link>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style type="text/css">
+    h1{
+        margin: 30px 0;
+        padding: 0 200px 15px 0;
+        border-bottom: 1px solid #E5E5E5;
+    }
+    .bs-example{
+        margin: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <h4>Registration Form</h4><br></br>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-xs-2" for="firstName">First Name:</label>
+            <div class="col-xs-3">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name"></input>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2" for="lastName">Last Name:</label>
+            <div class="col-xs-3">
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name"></input>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2" for="inputEmail">Email Address:</label>
+            <div class="col-xs-3">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email Address"></input>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2" for="phoneNumber">Phone Number:</label>
+            <div class="col-xs-3">
+                <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number"></input>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2">Date of Birth:</label>
+            <div class="col-xs-3">
+                <select class="form-control">
+                    <option>Date</option>
+                </select>
+            </div>
+            <div class="col-xs-3">
+                <select class="form-control">
+                    <option>Month</option>
+                </select>
+            </div>
+            <div class="col-xs-3">
+                <select class="form-control">
+                    <option>Year</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2" for="postalAddress">Postal Address:</label>
+            <div class="col-xs-3">
+                <textarea rows="3" class="form-control" id="postalAddress" placeholder="Postal Address"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2" for="ZipCode">Zip Code:</label>
+            <div class="col-xs-3">
+                <input type="text" class="form-control" id="ZipCode" placeholder="Zip Code"></input>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-2">Gender:</label>
+            <div class="col-xs-2">
+                <label class="radio-inline">
+                    <input type="radio" name="genderRadios" value="male"> Male</input>
+                </label>
+            </div>
+            <div class="col-xs-2">
+                <label class="radio-inline">
+                    <input type="radio" name="genderRadios" value="female"> Female</input>
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-2 col-xs-3">
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="news"> Send me latest news and updates.</input>
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-2 col-xs-3">
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="agree">  I agree to the <a href="#">Terms and Conditions</a>.</input>
+                </label>
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-9">
+                <input type="submit" class="btn btn-primary" value="Submit"></input>
+                <input type="reset" class="btn btn-default" value="Reset"></input>
+            </div>
+        </div>
+        </br>
+    </form>
+</div>
+</body>
+</html> 
+</apex:page>

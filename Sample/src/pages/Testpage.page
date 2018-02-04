@@ -1,0 +1,47 @@
+<apex:page >
+<apex:form >
+<script>
+function show(){
+var username="{!$User.FirstName}";
+
+alert("UserName"+username);
+}
+
+</script>
+<apex:commandButton value="click" onclick="show()"/>
+<apex:pageBlock title="Information">
+
+<apex:pageBlockSection columns="1" collapsible="false">
+<apex:pageBlockSectionItem >
+    <apex:outputLabel >Enter Name</apex:outputLabel>
+    <apex:inputText />
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem >
+    <apex:outputLabel >Enter Password</apex:outputLabel>
+    <apex:inputSecret />
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem >
+    <apex:outputLabel >Enter Sample</apex:outputLabel>
+    <apex:inputText />
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem >
+    <apex:outputLabel >Enter Other</apex:outputLabel>
+    <apex:inputText />
+</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem >
+    <apex:outputLabel >Enter Text</apex:outputLabel>
+    <apex:inputTextarea />
+</apex:pageBlockSectionItem>
+<apex:outputLabel >Select City</apex:outputLabel>
+<apex:selectList size="1">
+<apex:selectOption itemLabel="Hyderabad" itemValue="1"></apex:selectOption>
+<apex:selectOption itemLabel="Chennai" itemValue="2"></apex:selectOption>
+<apex:selectOption itemLabel="Pune" itemValue="3"></apex:selectOption>
+<apex:selectOption itemLabel="Mumbai" itemValue="4"></apex:selectOption>
+</apex:selectList>
+
+</apex:pageBlockSection>
+</apex:pageBlock>
+
+</apex:form>
+</apex:page>
